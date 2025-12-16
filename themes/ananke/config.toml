@@ -1,10 +1,14 @@
 
-baseURL = "https://puzzx-blog.pages.dev/"
+baseURL = "https://puzzx.com/"
 languageCode = "en-us"
-title = "PuzzX Blog"
+title = "PuzzX"
 theme = "ananke"
-buildFuture = true
-paginate = 10
+
+enableRobotsTXT = true
+buildFuture = false
+
+[pagination]
+pagerSize = 10
 
 [params]
   mainSections = ["posts"]
